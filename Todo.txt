@@ -1,0 +1,33 @@
+# Chess Bot Project - Todo List
+
+## Core Game Components
+
+### 1. Piece Definitions & Rules
+- [ ] Define all chess pieces (King, Queen, Rook, Bishop, Knight, Pawn)
+- [ ] Implement basic movement rules for each piece
+- [ ] Implement capture mechanics
+- [ ] Implement special moves:
+  - [ ] En passant
+  - [ ] Castling
+  - [ ] Pawn promotion
+
+### 2. Board Representation
+- [ ] Create 8x8x12 vector for board state
+  - [ ] 8x8 squares
+  - [ ] 12 piece types (6 white + 6 black pieces)
+- [ ] Initialize starting board position
+
+### 3. Game State Management
+- [ ] Track whose turn it is (white/black)
+- [ ] Implement turn switching logic
+
+### 4. Move Generation
+- [ ] Generate all valid moves for current player
+- [ ] Validate moves against game rules
+- [ ] Handle check/checkmate detection
+
+## Future Enhancements
+- [ ] AI opponent implementation
+- [ ] Move evaluation algorithms
+- [ ] Game history tracking
+- [ ] Save/load game functionality
