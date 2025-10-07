@@ -7,7 +7,6 @@
 - [ ] Implement basic movement rules for each piece
 - [ ] Implement capture mechanics
 - [ ] Implement special moves:
-  - [ ] En passant
   - [ ] Castling
   - [ ] Pawn promotion
 
